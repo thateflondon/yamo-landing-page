@@ -9,11 +9,6 @@ export interface NavbarData {
   // getName: (name: string) => string;
 }
 
-// const logoStyle = {
-//   width: 40px;
-//   height: 40px;
-// }
-
 export const Navbar = ({navbarSignIn, navbarSignUp}: NavbarData) => {
   return (
     <div>
@@ -24,8 +19,6 @@ export const Navbar = ({navbarSignIn, navbarSignUp}: NavbarData) => {
         <div className="signInUpBox">
           <div className="signInUpBox__links">
             <a style={{padding: "10px"}} href='www.jfpl.fr' className='signInUpBox__signIn'>{navbarSignIn}</a>
-            {/* <a style={{padding: "10px"}} href='www.jfpl.fr' className='signInUpBox__signIn'>{navbarSignIn}</a> */}
-            {/* <a><span className='spaner'>{navbarSignIn}</span></a> */}
             <a style={{padding: "10px"}} href='www.jfpl.fr' className='signInUpBox__signUp'>{navbarSignUp}</a>
           </div>
         </div>

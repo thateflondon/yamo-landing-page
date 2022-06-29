@@ -27,7 +27,6 @@ html body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 16px 24px 16px 24px;
-  border: 2px solid green;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -45,13 +44,30 @@ html body {
   font-weight: bold;
   font-size: 18px;
   border-radius: 50px;
+  margin-right: 20px;
 }
 
 .navbarHeader .signInUpBox .signInUpBox__links .signInUpBox__signIn:hover {
   color: #db4c44;
   border: 1px solid #db4c44;
   font-weight: bold;
-  font-size: 19px;
   background-color: #faf1ee;
+}
+
+.navbarHeader .signInUpBox .signInUpBox__links .signInUpBox__signUp {
+  background-color: #faf1ee;
+  color: #db4c44;
+  text-decoration: none;
+  border: 1px solid #dc5c54;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.navbarHeader .signInUpBox .signInUpBox__links .signInUpBox__signUp:hover {
+  color: #faf1ee;
+  border: 1px solid #faf1ee;
+  font-weight: bold;
+  background-color: #db4c44;
 }
 /*# sourceMappingURL=Home.css.map */

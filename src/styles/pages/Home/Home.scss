@@ -47,7 +47,7 @@ html{
   display: flex;
   justify-content: space-between;
   padding: 16px 24px 16px 24px;
-  border: 2px solid green;
+  // border: 2px solid green;
   align-items: center;
   // width: 100%;
   .navbarHeader__logoBox{
@@ -64,14 +64,29 @@ html{
         border: 1px solid $second;
         font-weight: bold;
         font-size: 18px;
-        border-radius: 50px;   
+        border-radius: 50px;  
+        margin-right: 20px; 
         &:hover{
           color: $first;
           border: 1px solid $first;
           font-weight: bold;
-          font-size: 19px;
           background-color: $third;
         } 
+      }
+      .signInUpBox__signUp{
+        background-color: $third;
+        color: $first;
+        text-decoration: none;
+        border: 1px solid $second;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 50px;
+        &:hover {
+          color: $third;
+          border: 1px solid $third;
+          font-weight: bold;
+          background-color: $first;
+          }
       }
     }
   }

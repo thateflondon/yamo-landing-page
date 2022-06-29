@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbarHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16px 24px 16px 24px;
+}
+
+.navbarHeader .navbarHeader__logoBox img {
+  width: 100px;
+  height: 60px;
+}
+
+.navbarHeader .signInUpBox .signInUpBox__links .signInUpBox__signIn {
+  margin-right: 20px;
+}
+/*# sourceMappingURL=Home.css.map */

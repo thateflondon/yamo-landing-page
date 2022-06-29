@@ -23,8 +23,10 @@ export const Navbar = ({navbarSignIn, navbarSignUp}: NavbarData) => {
         </div>
         <div className="signInUpBox">
           <div className="signInUpBox__links">
-            <button className='signInUpBox__signIn'>{navbarSignIn}</button>
-            <button className='signInUpBox__signUp'>{navbarSignUp}</button>
+            <a style={{padding: "10px"}} href='www.jfpl.fr' className='signInUpBox__signIn'>{navbarSignIn}</a>
+            {/* <a style={{padding: "10px"}} href='www.jfpl.fr' className='signInUpBox__signIn'>{navbarSignIn}</a> */}
+            {/* <a><span className='spaner'>{navbarSignIn}</span></a> */}
+            <a style={{padding: "10px"}} href='www.jfpl.fr' className='signInUpBox__signUp'>{navbarSignUp}</a>
           </div>
         </div>
       </div>

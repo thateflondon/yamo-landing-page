@@ -38,7 +38,7 @@ html{
     width: 100%;
     background-color: $first;
     line-height: 1.2rem;
-    transition: ease-in-out 2s;
+    // transition: ease-in-out 2s;
       
   }
 }
@@ -67,6 +67,7 @@ html{
         border-radius: 50px;  
         margin-right: 20px; 
         &:hover{
+          transition: ease-in-out 2s;
           color: $first;
           border: 1px solid $first;
           font-weight: bold;
@@ -82,6 +83,7 @@ html{
         font-size: 18px;
         border-radius: 50px;
         &:hover {
+          transition: ease-in-out 0.2s;
           color: $third;
           border: 1px solid $third;
           font-weight: bold;
@@ -90,4 +92,92 @@ html{
       }
     }
   }
+}
+
+.heroContainer{
+  display: flex;
+  flex-flow: column;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  // height: 100%;
+  height: 600px;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 16px;
+  // padding-bottom: 450px;
+  background-image: url(../../../assets/images/image_test.jpeg);
+  // text-align: center;
+  .heroContainer__wrapper {
+      // text-align: center;
+      // display: inline-block;
+      display: contents;
+      // justify-content: center;
+      .heroContainer__text {
+        // margin-bottom: 50px;
+        font-size: 32px;
+        // font-weight: 900;
+        line-height: 76px;
+        letter-spacing: -0.04ch;
+        text-transform: none;
+        color: $third;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        max-width: 334px;
+        
+        // color: #eca49c;
+  
+        .heroContainer__order {
+          font-size: 76px;
+          font-weight: 700;
+          line-height: 76px;
+          letter-spacing: -0.04ch;
+          text-transform: none;
+          color: $third;
+          text-align: center;
+          margin: 0px;
+          padding: 0px;
+          display: block;
+          font-variant-ligatures: no-common-ligatures;
+          color: whitesmoke;
+  
+          // margin-top: 100px;
+          // margin-bottom: 100px;
+  
+        }
+  
+        .heroContainer__deliver {
+          font-size: 64px;
+          font-weight: 700;
+          line-height: 40px;
+          letter-spacing: -0.04ch;
+          text-transform: none;
+          color: $third;
+          text-align: center;
+          margin: 0px;
+          padding: 0px;
+          display: block;
+          font-variant-ligatures: no-common-ligatures;
+          color: whitesmoke;
+          margin-bottom: 100px;
+        }
+      }
+      .heroContainer__signInText{
+        justify-content: center;
+        text-align: center;
+        text-decoration: none;
+        color: $third;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        border: 2px solid $second;
+        background-color: $first;
+        border-radius: 50px;
+        padding: 4px 8px 4px 8px;
+      }
+    }
 }

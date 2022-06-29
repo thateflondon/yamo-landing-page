@@ -15,8 +15,6 @@ html body {
   width: 100%;
   background-color: #db4c44;
   line-height: 1.2rem;
-  -webkit-transition: ease-in-out 2s;
-  transition: ease-in-out 2s;
 }
 
 .navbarHeader {
@@ -48,6 +46,8 @@ html body {
 }
 
 .navbarHeader .signInUpBox .signInUpBox__links .signInUpBox__signIn:hover {
+  -webkit-transition: ease-in-out 2s;
+  transition: ease-in-out 2s;
   color: #db4c44;
   border: 1px solid #db4c44;
   font-weight: bold;
@@ -65,9 +65,98 @@ html body {
 }
 
 .navbarHeader .signInUpBox .signInUpBox__links .signInUpBox__signUp:hover {
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
   color: #faf1ee;
   border: 1px solid #faf1ee;
   font-weight: bold;
   background-color: #db4c44;
+}
+
+.heroContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 16px;
+  background-image: url(../../../assets/images/image_test.jpeg);
+}
+
+.heroContainer .heroContainer__wrapper {
+  display: contents;
+}
+
+.heroContainer .heroContainer__wrapper .heroContainer__text {
+  font-size: 32px;
+  line-height: 76px;
+  letter-spacing: -0.04ch;
+  text-transform: none;
+  color: #faf1ee;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  max-width: 334px;
+}
+
+.heroContainer .heroContainer__wrapper .heroContainer__text .heroContainer__order {
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: -0.04ch;
+  text-transform: none;
+  color: #faf1ee;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+          font-variant-ligatures: no-common-ligatures;
+  color: whitesmoke;
+}
+
+.heroContainer .heroContainer__wrapper .heroContainer__text .heroContainer__deliver {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.04ch;
+  text-transform: none;
+  color: #faf1ee;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+          font-variant-ligatures: no-common-ligatures;
+  color: whitesmoke;
+  margin-bottom: 100px;
+}
+
+.heroContainer .heroContainer__wrapper .heroContainer__signInText {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #faf1ee;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  border: 2px solid #dc5c54;
+  background-color: #db4c44;
+  border-radius: 50px;
+  padding: 4px 8px 4px 8px;
 }
 /*# sourceMappingURL=Home.css.map */

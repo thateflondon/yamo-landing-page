@@ -1,4 +1,4 @@
-import {FC} from 'react';
+// import {FC} from 'react';
 import Logo from '../../../src/logo.svg';
 import * as React from 'react';
 

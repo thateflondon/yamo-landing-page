@@ -21,26 +21,33 @@ export interface OfferData {
 
 export const Offer = ({mainTitle, secondaryTitle, buttonTitle, mainTitleStoreFront, secondaryTitleStoreFront, buttonTitleStoreFront, mainTitleIphone, secondaryTitleIphone, buttonTitleIphone }: OfferData) => {
   return (
-    <div>
+    <div className='testing'>
       <div className="offerContainer">
         <div className="offerContainer__list">
             <div className="offerContainer__item">
                 <img src={Scoot} alt="" className="item__image" />
-                <h2 className="item__title">{mainTitle}</h2>
-                <h3 className="item__subtitle">{secondaryTitle}</h3>
-                <a href="www.jfpl.fr" className="item__link">{buttonTitle}</a>
+                <div className="item__textWrapper">
+                    <h2 className="item__title">{mainTitle}</h2>
+                    <h3 className="item__subtitle">{secondaryTitle}</h3>
+                    <a href="www.jfpl.fr" className="item__link">{buttonTitle}</a>
+                </div>
+                
             </div>
             <div className="offerContainer__item">
                 <img src={Storefront} alt="" className="item__image" />
-                <h2 className="item__title">{mainTitleStoreFront}</h2>
-                <h3 className="item__subtitle">{secondaryTitle}</h3>
-                <a href="www.jfpl.fr" className="item__link">{buttonTitleStoreFront}</a>
+                <div className="item__textWrapper">
+                    <h2 className="item__title">{mainTitleStoreFront}</h2>
+                    <h3 className="item__subtitle">{secondaryTitleStoreFront}</h3>
+                    <a href="www.jfpl.fr" className="item__link">{buttonTitleStoreFront}</a>
+                </div>
             </div>
             <div className="offerContainer__item">
                 <img src={Iphone} alt="" className="item__image" />
-                <h2 className="item__title">{mainTitleIphone}</h2>
-                <h3 className="item__subtitle">{secondaryTitleIphone}</h3>
-                <a href="www.jfpl.fr" className="item__link">{buttonTitleIphone}</a>
+                <div className="item__textWrapper">
+                    <h2 className="item__title">{mainTitleIphone}</h2>
+                    <h3 className="item__subtitle">{secondaryTitleIphone}</h3>
+                    <a href="www.jfpl.fr" className="item__link">{buttonTitleIphone}</a>
+                </div>
             </div>
         </div>
       </div>

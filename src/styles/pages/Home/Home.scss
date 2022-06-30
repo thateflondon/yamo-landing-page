@@ -186,9 +186,87 @@ html{
     }
 }
 
-.offerContainer{
-  // display: contents;
-  .offerContainer__list{
-    display: flex;
-  }
+.testing{
+  // width: 100%;
+  // margin: 0px auto;
+  // flex: 1 0 auto;
 }
+
+// .offerContainer{
+//   display: contents;
+//   .offerContainer__list{
+//     display: flex;
+//     // width: 100%;
+//     width: 70%;
+//     margin: 0px auto;
+//     flex: 1 0 auto;
+//     justify-content: space-between;
+//     margin-top: 50px;
+//     .offerContainer__item{
+//       // display: flex;
+//       text-align: center;
+//       width: 30%;
+//       min-width: 360px;
+//       flex-flow: row nowrap;
+//       .item__image{
+//         // justify-content: center;
+//       }
+//       .item__textWrapper{
+//         display: flex;
+//         flex-flow: column nowrap;
+//         width: 100%;
+//         // max-width: 250px;
+//         text-align: center;
+//       }
+//     }
+//   }
+// }
+
+.offerContainer{
+  width: 100%;
+  .offerContainer__list {
+      width: 90%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(235px, auto);
+      margin: 80px auto;
+      .offerContainer__item{
+        text-align: center;
+        .item__image{
+          margin-bottom: 30px;
+        }
+        .item__textWrapper{
+          width: 100%;
+          .item__title{
+            color: $third;
+            font-size: 32px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            line-height: 27px;
+          }
+          .item__subtitle{
+            color: $third;
+            margin: auto;
+            max-width: 265px;
+            margin-bottom: 30px;
+            line-height: 24px;
+          }
+          .item__link{
+            border: 2px solid $third;
+            text-decoration: none;
+            border-radius: 50px;
+            padding: 4px 8px 4px 8px;
+            color: $first;
+            background-color: $third;
+            &:hover{
+              color: $third;
+              background-color: $first;
+            }
+          }
+          
+        }
+      }
+    }
+}
+

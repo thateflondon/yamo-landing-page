@@ -165,9 +165,60 @@ html body {
   color: #db4c44;
 }
 
+.offerContainer {
+  width: 100%;
+}
+
 .offerContainer .offerContainer__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 90%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(235px, auto);
+  margin: 80px auto;
+}
+
+.offerContainer .offerContainer__list .offerContainer__item {
+  text-align: center;
+}
+
+.offerContainer .offerContainer__list .offerContainer__item .item__image {
+  margin-bottom: 30px;
+}
+
+.offerContainer .offerContainer__list .offerContainer__item .item__textWrapper {
+  width: 100%;
+}
+
+.offerContainer .offerContainer__list .offerContainer__item .item__textWrapper .item__title {
+  color: #faf1ee;
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  line-height: 27px;
+}
+
+.offerContainer .offerContainer__list .offerContainer__item .item__textWrapper .item__subtitle {
+  color: #faf1ee;
+  margin: auto;
+  max-width: 265px;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+
+.offerContainer .offerContainer__list .offerContainer__item .item__textWrapper .item__link {
+  border: 2px solid #faf1ee;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 4px 8px 4px 8px;
+  color: #db4c44;
+  background-color: #faf1ee;
+}
+
+.offerContainer .offerContainer__list .offerContainer__item .item__textWrapper .item__link:hover {
+  color: #faf1ee;
+  background-color: #db4c44;
 }
 /*# sourceMappingURL=Home.css.map */

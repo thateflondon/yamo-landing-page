@@ -159,4 +159,15 @@ html body {
   border-radius: 50px;
   padding: 4px 8px 4px 8px;
 }
+
+.heroContainer .heroContainer__wrapper .heroContainer__signInText:hover {
+  background-color: #faf1ee;
+  color: #db4c44;
+}
+
+.offerContainer .offerContainer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=Home.css.map */

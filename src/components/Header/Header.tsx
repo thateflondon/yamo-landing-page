@@ -10,8 +10,8 @@ export const Header = () => {
   return (
     <div>
       <Navbar
-      navbarSignIn = "Sign In"
-      navbarSignUp = "Sign Up"
+       navbarSignIn = "Sign In"
+       navbarSignUp = "Sign Up"
       />
       <Hero
        mainTextOrder = 'You order,'

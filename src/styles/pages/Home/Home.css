@@ -186,6 +186,8 @@ html body {
 
 .offerContainer .offerContainer__list .offerContainer__item .item__image {
   margin-bottom: 30px;
+  width: 154px;
+  height: 154px;
 }
 
 .offerContainer .offerContainer__list .offerContainer__item .item__textWrapper {

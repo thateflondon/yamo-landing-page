@@ -128,8 +128,6 @@ html{
         padding: 0px;
         display: block;
         max-width: 334px;
-        
-        // color: #eca49c;
   
         .heroContainer__order {
           font-size: 76px;
@@ -235,6 +233,8 @@ html{
         text-align: center;
         .item__image{
           margin-bottom: 30px;
+          width: 154px;
+          height: 154px;
         }
         .item__textWrapper{
           width: 100%;

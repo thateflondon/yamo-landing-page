@@ -1,5 +1,5 @@
 // import {FC} from 'react';
-import Logo from '../../../src/logo.svg';
+import Logo from '../../../src/assets/images/home/YAMO_logo_new_design.svg';
 import * as React from 'react';
 
 export interface NavbarData {

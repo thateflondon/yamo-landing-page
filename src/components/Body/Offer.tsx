@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Iphone from "../../assets/images/iphone.svg";
-import Scoot from "../../assets/images/ScootScoot.svg";
-import Storefront from "../../assets/images/Storefront.svg";
+import Iphone from "../../assets/images/home/Yamo_app.svg";
+import Scoot from "../../assets/images/home/Yamoeur_za.svg";
+import Storefront from "../../assets/images/home/Yamo_storefront.svg";
 import '../../styles/pages/Home/Home.css';
 
 
@@ -25,13 +25,12 @@ export const Offer = ({mainTitle, secondaryTitle, buttonTitle, mainTitleStoreFro
       <div className="offerContainer">
         <div className="offerContainer__list">
             <div className="offerContainer__item">
-                <img src={Scoot} alt="" className="item__image" />
+                <img src={Iphone} alt="" className="item__image" />
                 <div className="item__textWrapper">
-                    <h2 className="item__title">{mainTitle}</h2>
-                    <h3 className="item__subtitle">{secondaryTitle}</h3>
-                    <a href="www.jfpl.fr" className="item__link">{buttonTitle}</a>
+                    <h2 className="item__title">{mainTitleIphone}</h2>
+                    <h3 className="item__subtitle">{secondaryTitleIphone}</h3>
+                    <a href="www.jfpl.fr" className="item__link">{buttonTitleIphone}</a>
                 </div>
-                
             </div>
             <div className="offerContainer__item">
                 <img src={Storefront} alt="" className="item__image" />
@@ -42,11 +41,11 @@ export const Offer = ({mainTitle, secondaryTitle, buttonTitle, mainTitleStoreFro
                 </div>
             </div>
             <div className="offerContainer__item">
-                <img src={Iphone} alt="" className="item__image" />
+                <img src={Scoot} alt="" className="item__image" />
                 <div className="item__textWrapper">
-                    <h2 className="item__title">{mainTitleIphone}</h2>
-                    <h3 className="item__subtitle">{secondaryTitleIphone}</h3>
-                    <a href="www.jfpl.fr" className="item__link">{buttonTitleIphone}</a>
+                    <h2 className="item__title">{mainTitle}</h2>
+                    <h3 className="item__subtitle">{secondaryTitle}</h3>
+                    <a href="www.jfpl.fr" className="item__link">{buttonTitle}</a>
                 </div>
             </div>
         </div>

@@ -65,7 +65,8 @@ html{
         font-weight: bold;
         font-size: 18px;
         border-radius: 50px;  
-        margin-right: 20px; 
+        // margin-right: 20px; 
+        width: 62.977px;
         &:hover{
           transition: ease-in-out 2s;
           color: $first;
@@ -82,6 +83,8 @@ html{
         font-weight: bold;
         font-size: 18px;
         border-radius: 50px;
+        margin-left: 20px;
+        width: 62.977px;
         &:hover {
           transition: ease-in-out 0.2s;
           color: $third;
@@ -151,7 +154,7 @@ html{
         .heroContainer__deliver {
           font-size: 64px;
           font-weight: 700;
-          line-height: 40px;
+          line-height: 76px;
           letter-spacing: -0.04ch;
           text-transform: none;
           color: $third;
@@ -187,7 +190,7 @@ html{
 .offerContainer{
   width: 100%;
   .offerContainer__list {
-    -webkit-box-pack: justify;
+      -webkit-box-pack: justify;
       justify-content: space-between;
       // display: ms-flexbox;
       display: flex;
@@ -250,3 +253,15 @@ html{
     }
 }
 
+/**** Responsive ****/
+
+// SignIn Sign Up
+@media only screen and (max-width: 330px ) {
+  .signInUpBox{
+    .signInUpBox__links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+  }
+}

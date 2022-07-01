@@ -181,10 +181,6 @@ html body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 80px auto;
-  /* text-align: center; */
-  /* margin-left: -15px; */
-  /* margin-right: -15px; */
-  /* margin: 0 auto;*/
 }
 
 .offerContainer .offerContainer__list .offerContainer__item {

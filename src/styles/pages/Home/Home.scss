@@ -38,8 +38,6 @@ html{
     width: 100%;
     background-color: $first;
     line-height: 1.2rem;
-    // transition: ease-in-out 2s;
-      
   }
 }
 
@@ -47,9 +45,7 @@ html{
   display: flex;
   justify-content: space-between;
   padding: 16px 24px 16px 24px;
-  // border: 2px solid green;
   align-items: center;
-  // width: 100%;
   .navbarHeader__logoBox{
     img{
       width: 100px;
@@ -65,7 +61,6 @@ html{
         font-weight: bold;
         font-size: 18px;
         border-radius: 50px;  
-        // margin-right: 20px; 
         width: 62.977px;
         &:hover{
           transition: ease-in-out 2s;
@@ -103,25 +98,17 @@ html{
   -webkit-box-align: center;
   align-items: center;
   width: 100%;
-  // height: 100%;
   height: 600px;
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   padding-top: 16px;
-  // padding-bottom: 450px;
   background-image: url(../../../assets/images/home/image_test.jpeg);
-  // text-align: center;
   .heroContainer__wrapper {
-      // text-align: center;
-      // display: inline-block;
       display: contents;
-      // justify-content: center;
       .heroContainer__text {
-        // margin-bottom: 50px;
         font-size: 32px;
-        // font-weight: 900;
         line-height: 76px;
         letter-spacing: -0.04ch;
         text-transform: none;
@@ -145,10 +132,6 @@ html{
           display: block;
           font-variant-ligatures: no-common-ligatures;
           color: whitesmoke;
-  
-          // margin-top: 100px;
-          // margin-bottom: 100px;
-  
         }
   
         .heroContainer__deliver {
@@ -192,28 +175,14 @@ html{
   .offerContainer__list {
       -webkit-box-pack: justify;
       justify-content: space-between;
-      // display: ms-flexbox;
       display: flex;
       flex-wrap: wrap;
       margin-top: 80px auto;
-      /* text-align: center; */
-      /* margin-left: -15px; */
-      /* margin-right: -15px; */
-      /* margin: 0 auto;*/
-      // width: 75%;
-      // display: grid;
-      // grid-template-columns: repeat(3, 1fr);
-      // grid-gap: 10px;
-      // grid-auto-rows: minmax(235px, auto);
-      // margin: 80px auto;
-      // flex-wrap: wrap;
       
       .offerContainer__item{
         text-align: center;
         margin: 35px auto;
-        // grid-column: auto;
-        // grid-row: 1;
-        
+      
         .item__image{
           margin-bottom: 30px;
           width: 154px;

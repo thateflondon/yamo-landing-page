@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "regularFont";
+  src: url("../../../../src/assets/fonts/TTNorms-Regular.otf");
+}
+
+/* COLORS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  font-family: regularFont;
+  height: 100%;
+  width: 100%;
+  background-color: #db4c44;
+  line-height: 1.2rem;
+}
+/*# sourceMappingURL=register.css.map */

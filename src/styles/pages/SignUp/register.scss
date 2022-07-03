@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "regularFont";
+    src: url("../../../../src/assets/fonts/TTNorms-Regular.otf");
+}
+
+/* COLORS */
+
+$first: #db4c44;
+$second: #dc5c54;
+$third: #faf1ee;
+$fourth: #e68683;
+
+$sea-pink: #eca49c;
+$sea-pinky: #eca4a4;
+$sunglo: #e46660;
+$sungloo: #e3746c;
+$romano: #dc635f;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    body {
+        font-family: regularFont;
+        height: 100%;
+        width: 100%;
+        background-color: $first;
+        line-height: 1.2rem;
+    }
+}

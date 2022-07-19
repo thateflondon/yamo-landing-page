@@ -172,6 +172,8 @@ html{
 
 .offerContainer{
   width: 100%;
+  margin-top: 250px;
+  margin-bottom: 250px;
   .offerContainer__list {
       -webkit-box-pack: justify;
       justify-content: space-between;
@@ -224,7 +226,36 @@ html{
 
 /* HOW IT WORKS  */
 
-
+.how-it-works-wrapper{
+  // margin-top: 250px;
+  // margin-bottom: 250px;
+  background-color: #faf1ee;
+  height: 426px;
+  padding: 32px;
+  
+  // display: flex;
+    align-items: center;
+  .how-it-works-wrapper__text{
+    // margin: auto;
+    // background-color: red;
+    height: 100%;
+    .main-title{
+      text-align: center;
+      font-weight: 900;
+      font-size: 70px;
+      color: #db4c44;
+      line-height: 1.5;
+    }
+    .secondary-title{
+      text-align: center;
+      font-weight: 800;
+      font-size: 60px;
+      // font-size: 3.5rem;
+      color: #eca49c;
+      line-height: 1.1;
+    }
+  }
+}
 
 /* HOW IT WORKS END  */
 

@@ -18,8 +18,8 @@ export const Body = () => {
        buttonTitleIphone={'Get the app'}      
     />
     <HowItWorks
-    mainTitle='How It Works'
-    secondaryTitle='It is very simple'
+    mainTitle='How It Works ?'
+    secondaryTitle='It is very simple !'
     />
     </div>
   );

@@ -169,6 +169,8 @@ html body {
 
 .offerContainer {
   width: 100%;
+  margin-top: 250px;
+  margin-bottom: 250px;
 }
 
 .offerContainer .offerContainer__list {
@@ -229,6 +231,35 @@ html body {
 }
 
 /* HOW IT WORKS  */
+.how-it-works-wrapper {
+  background-color: #faf1ee;
+  height: 426px;
+  padding: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.how-it-works-wrapper .how-it-works-wrapper__text {
+  height: 100%;
+}
+
+.how-it-works-wrapper .how-it-works-wrapper__text .main-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 70px;
+  color: #db4c44;
+  line-height: 1.5;
+}
+
+.how-it-works-wrapper .how-it-works-wrapper__text .secondary-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 60px;
+  color: #eca49c;
+  line-height: 1.1;
+}
+
 /* HOW IT WORKS END  */
 /**** Responsive ****/
 @media only screen and (max-width: 330px) {

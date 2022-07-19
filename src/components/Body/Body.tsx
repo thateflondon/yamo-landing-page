@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { HowItWorks } from './HowItWorks';
 import { Offer } from './Offer';
 
 
@@ -15,6 +16,10 @@ export const Body = () => {
        mainTitleIphone={'Try the App'} 
        secondaryTitleIphone={'From your favorite restaurants and shops to your home or office in only 30 minutes.'} 
        buttonTitleIphone={'Get the app'}      
+    />
+    <HowItWorks
+    mainTitle='How It Works'
+    secondaryTitle='It is very simple'
     />
     </div>
   );
